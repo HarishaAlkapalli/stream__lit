@@ -5,7 +5,7 @@ import pandas as pd
 @st.cache_data
 def load_data():
     # Change this to your actual file path
-    df = pd.read_csv("/home/rgukt-basar/Downloads/final_allocation_with_pref5.csv")
+    df = pd.read_csv("final_allocation_with_pref5.csv")
     return df
 
 st.set_page_config(page_title="Student Result Checker", layout="centered")
